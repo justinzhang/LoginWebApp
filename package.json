@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon ./index.js"
   },
   "repository": {
@@ -12,7 +11,7 @@
     "url": "git+https://github.com/justinzhang/LoginWebApp.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Justinzhang",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/justinzhang/LoginWebApp/issues"
@@ -20,5 +19,8 @@
   "homepage": "https://github.com/justinzhang/LoginWebApp#readme",
   "devDependencies": {
     "nodemon": "^2.0.9"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
