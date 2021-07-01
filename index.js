@@ -4,9 +4,8 @@
 /** 
 REQUIRED EXTERNAL MODULES
 **/
-import express from "express"; //Express framework
-
-import path from "path"; //provides dir path utilities
+const express = require("express"); //Express framework
+const path = require("path"); //provides dir path utilities
 
 
 /** 
